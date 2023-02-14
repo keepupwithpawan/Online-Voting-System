@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Bree+Serif&family=Mea+Culpa&family=Source+Code+Pro&family=Ubuntu&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family:'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+  
+  .main{
+    margin-top: -90px;
+    background-color: rgba(0,29,45,1);
+    margin-bottom: 100px;
+  }
+  
+  /* NAVIGATION BAR */
+  #nav{
+  background-color: rgba(0,29,45,1);
+  justify-content: right;
+  color: #317aa3;
+  font-size: 16px;
+  cursor: pointer;
+  height: 100px;
+  margin-top: -18px;
+  padding-top: 20px;
+}
+  
+  #nav ul{
+    list-style: none;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding-right: 30px;
+  }
+  
+  #logo{
+    width: 150px;
+    display: block;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -2px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+  }
+
+  #nav ul li{
+    padding-right: 20px;
+    padding-top: 7px;
+    margin-left: 40px;
+    font-size: larger;
+  }
+  
+  #nav ul li:hover{
+    padding-right: 20px;
+    padding-top: 7px;
+    color: rgb(163, 219, 240);
+  }
+  
+  #register{
+    background-color: rgb(65,152,255);
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 40px;
+    font-size: larger;
+    margin-top: -3px;
+    color: white;
+  }
+  
+  /* LEFT SIDE */
+  #Left{
+    color:rgba(177, 221, 248,1);
+    margin-top: 90px;
+    width: 40vw; 
+    padding-left: 200px;
+    padding-top: 100px;
+    font-size: 20px;
+  }
+
+  #signin{
+    padding-top: 20px;
+    display: flex;
+    padding-left: 0px;
+  }
+  
+  #googlediv{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Google{
+    color: rgba(177, 221, 248,1);
+    width: 140px;
+    height: 50px;
+    margin-right: 100px;
+    padding: 8px;
+    border-radius: 50px;
+    border: 3px solid rgba(177, 221, 248,1) ;
+    background-color: rgba(0,29,80,1);
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gimg{
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+  }
+  
+  #micdiv{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mic{
+    color: rgba(177, 221, 248,1);
+    width: 140px;
+    height: 50px;
+    margin-right: 100px;
+    border-radius: 50px;
+    border: 3px solid rgba(177, 221, 248,1) ;
+    background-color: rgba(0,29,80,1);
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+  }
+
+  .mimg{
+    width: 47px;
+    height: 40px;
+  }
+  
+  #signin p{
+    color: white;
+    position: absolute;
+    margin-left: 175px;
+    margin-top: 11px;
+  }
+
+  /* RIGHT SIDE */
+  #right{
+    width: 50vw;
+    margin-left: auto;
+  }
+
+  #right img{
+    width: 300px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-top: -250px;
+    margin-right: 200px;
+    padding-bottom: 100px;
+  }
+  
+  /* FOOTER */
+  #footer{
+    color: white;
+    background-color: rgba(0,29,45,1);
+    width: 100vw;
+    height: 50px;
+    position: sticky;
+    text-align: center;
+    margin-bottom: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  #footer2{
+    color: white;
+    background-color: rgba(0,29,45,1);
+    width: 100vw;
+    height: 50px;
+    position: sticky;
+    text-align: center;
+    margin-bottom: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+  }
+  
+  #emaillogo{
+    padding-right: 10px;
+  }
+
+  #curve{
+    height: 300px;
+    margin-bottom: 100px;
+    background-color: white;
+  }
+
+  #curve img{
+    width: 100vw;
+  }
+
+  /* ABOUT US */
+  #boxes{
+    display: flex;
+    justify-content: center;
+  }
+
+  .box1{
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    color: rgba(0,29,45,1);
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: black 3px 3px 3px;
+    padding: 14px;
+    font-weight: bold;
+    align-items: center;
+    margin: 0 100px;
+    margin-top: 70px;
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    padding-top: 40px;
+    border: 3px solid black;
+  }
+
+  .para{
+    width: 600px;
+    display: flex;
+    justify-content: right;
+  }
+
+  .info{
+    font-size: medium;
+    text-align: left;
+    width: 200px;
+    padding-right: 40px;
+    padding-top: 50px;
+  }
+  
+  .para img{
+    margin-right: 90px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  /* CONTACT US */
+  .contact{
+    background-color:white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 300px;
+  }
+  
+  .contact h1{
+    text-align: center;
+    font-size: 30px;
+    color: wheat;
+    text-shadow: black 2px 1px 2px;
+  }
+  
+  .contact h2{
+    color: black;
+    text-shadow: wheat 1px 1px 2px;
+    text-align: center;
+  }
+  
+  .contact h4{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    color: black;
+    cursor: pointer;
+  }
+  
+  #emaillogo{
+    padding-right: 10px;
+  }
+
+  #main2{
+    background-color: white;
+  }
+

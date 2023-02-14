@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Bree+Serif&family=Mea+Culpa&family=Source+Code+Pro&family=Ubuntu&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family:'Ubuntu', sans-serif;
+    background-color: white;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#nav{
+    background-color: rgba(0,29,45,1);
+    justify-content: right;
+    color: #317aa3;
+    font-size: 16px;
+    cursor: pointer;
+    height: 100px;
+    margin-top: -18px;
+    padding-top: 20px;
+  }
+    
+    .logo{
+      width: 150px;
+      display: block;
+      position: absolute;
+      margin-left: 50px;
+      margin-top: -4px;
+      cursor: pointer;
+      height: 104px;
+    }
+
+h1{
+    margin-top: 60px;
+    text-align: center;
+    color: rgba(0,29,45,1);
+}
+
+
+#p2{  
+    width: 97vw;
+}
+
+#p2 p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: larger;
+    color: rgba(0,29,45,1);
+    display: flex;
+    justify-content: center;
+    padding: 0 70px;
+}
+
+h2{
+    margin-top: 100px;
+    text-align: center;
+    color: rgba(0,29,45,1);
+}
+
+/* Images */
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+.images{
+    position: relative;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.images #image{
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 250px;
+    width: 250px;
+    opacity: 1;
+    display: inline-block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.pawanOverlay{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 250px;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.6);
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
+    opacity: 0;
+}
+
+.pawanOverlay:hover{
+    opacity: 1;
+}
+
+#image:hover {
+    opacity: 0.3;
+}
+
+.images #image1{
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 250px;
+    width: 250px;
+}
+
+.aahanaOverlay{
+    position: absolute;
+    top: 50px;
+    left: 454px;
+    width: 250px;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.6);
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
+    opacity: 0;
+}
+
+.aahanaOverlay:hover{
+    opacity: 1;
+}
+
+
+#image1:hover {
+    opacity: 0.3;
+}
+
+.images #image2{
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 250px;
+    width: 250px;
+}
+
+.shreeOverlay{
+    position: absolute;
+    top: 50px;
+    left: 808px;
+    width: 250px;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.6);
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
+    opacity: 0;
+}
+
+.shreeOverlay:hover{
+    opacity: 1;
+}
+
+#image2:hover {
+    opacity: 0.3;
+}
+
+.images #image3{
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 250px;
+    width: 250px;
+}
+
+.alishaOverlay{
+    position: absolute;
+    top: 50px;
+    left: 1162px;
+    width: 250px;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.6);
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
+    opacity: 0;
+}
+
+.alishaOverlay:hover{
+    opacity: 1;
+}
+
+#image3:hover {
+    opacity: 0.3;
+}
+
+/* Footer */
+#footer{
+    position: relative;
+    height: 40px;
+    margin-top: 60px;
+}
+
+#footerp p{
+    padding: 10px;
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 25px;
+    word-spacing: 20px;
+}
+
+i{
+    background-color: black;
+    cursor: pointer;
+}
+
+  /* FOOTER */
+  #footer{
+    color: white;
+    background-color: rgba(0,29,45,1);
+    width: 100vw;
+    height: 50px;
+    position: sticky;
+    text-align: center;
+    margin-bottom: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  #footer2{
+    color: white;
+    background-color: rgba(0,29,45,1);
+    width: 100vw;
+    height: 50px;
+    position: sticky;
+    text-align: center;
+    margin-bottom: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+  }
+  
+  #emaillogo{
+    padding-right: 10px;
+  }

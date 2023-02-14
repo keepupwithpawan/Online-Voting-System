@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Bree+Serif&family=Mea+Culpa&family=Source+Code+Pro&family=Ubuntu&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family:'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+  
+  /* NAVIGATION BAR */
+  #nav{
+  background-color: rgba(0,29,45,1);
+  justify-content: right;
+  color: #317aa3;
+  font-size: 16px;
+  cursor: pointer;
+  height: 100px;
+  margin-top: -18px;
+  padding-top: 20px;
+}
+  
+  #nav ul{
+    list-style: none;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding-right: 30px;
+  }
+  
+  .logo{
+    width: 150px;
+    height: 120px;
+    display: block;
+    position: absolute;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+
+  #nav ul li{
+    padding-right: 20px;
+    padding-top: 7px;
+    margin-left: 40px;
+    font-size: larger;
+  }
+  
+  #nav ul li:hover{
+    padding-right: 20px;
+    padding-top: 7px;
+    color: rgb(163, 219, 240);
+  }
+  
+/* VOTE BUTTONS */
+
+.bjp{
+    background-color: wheat;
+    padding: 15px 32px;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 30px;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 641px;
+    margin-top: 70px;
+    width: 300px;
+}
+
+.bjp:hover{
+    color: white;
+    background-color: rgba(0,29,45,1);
+    border: 5px solid white;
+    border-style: double;
+}
+
+.con{
+    background-color: wheat;
+    padding: 15px 32px;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 30px;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 640px;
+    margin-top: 160px;
+    width: 300px;
+}
+
+.con:hover{
+    color: white;
+    background-color: rgba(0,29,45,1);
+    border: 5px solid white;
+    border-style: double;
+}
+
+
+.aap{
+    background-color: wheat;
+    padding: 15px 32px;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 30px;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 639px;
+    margin-top: 250px;
+    width: 300px;
+}
+
+.aap:hover{
+    color: white;
+    background-color: rgba(0,29,45,1);
+    border: 5px solid white;
+    border-style: double;
+}
+
+.ss{
+    background-color: wheat;
+    padding: 15px 32px;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 30px;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 639px;
+    margin-top: 340px;
+    width: 300px;
+}
+
+.ss:hover{
+    color: white;
+    background-color: rgba(0,29,45,1);
+    border: 5px solid white;
+    border-style: double;
+}
+
+/* Footer */
+#footer{
+    position: relative;
+    height: 40px;
+    margin-top: 570px;
+}
+
+p{
+    padding: 10px;
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 25px;
+    word-spacing: 20px;
+}
+
+i{
+    cursor: pointer;
+}
+
+#footer{
+    color: white;
+    background-color: rgba(0,29,45,1);
+    width: 100vw;
+    height: 50px;
+    position: sticky;
+    text-align: center;
+    margin-bottom: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  #footer2{
+    color: white;
+    background-color: rgba(0,29,45,1);
+    width: 100vw;
+    height: 50px;
+    position: sticky;
+    text-align: center;
+    margin-bottom: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+  }
+  
+  #emaillogo{
+    padding-right: 10px;
+  }
